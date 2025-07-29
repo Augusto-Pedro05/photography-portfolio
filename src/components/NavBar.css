@@ -1,0 +1,20 @@
+#nav{
+   background-color: #F5F5F5;
+   height: 100px;
+}
+#navList{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navLink{
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: "Playfair Display SC", serif;
+    color: #363636;
+    font-size: 22px;
+}
+.navLink:hover{
+    color: #5f5f5f;
+}
