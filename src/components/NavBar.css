@@ -1,6 +1,7 @@
 #nav{
    background-color: #F5F5F5;
    height: 100px;
+   width: 100%;   /* Força a lista a preencher TODA a largura da <nav> */
 }
 #navList{
     list-style: none;
