@@ -14,9 +14,9 @@ import ContactPage from './pages/ContactPage'
 function App() {
 
   return (
-    <div>
-      <NavBar/>
-      <main>
+    <div id='app-container'>
+      <NavBar type="nav"/>
+      <main id="main-content">
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

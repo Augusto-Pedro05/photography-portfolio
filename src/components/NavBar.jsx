@@ -2,9 +2,9 @@ import {Link} from 'react-router-dom'
 import Logo from '../assets/images/Logo.png'
 import './NavBar.css'
 
-export default function NavBar(){
+export default function NavBar({type}){
     return (
-        <nav id = "nav">
+        <nav id = {type}>
             <ul id = "navList">
                 <li><Link className='navLink' to="/home">HOME</Link></li>
                 <li><Link className='navLink' to="/about">ABOUT</Link></li>

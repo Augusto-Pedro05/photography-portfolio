@@ -10,7 +10,7 @@ import Instagram from '../assets/icons/Instagram_Logo.png';
 export default function Footer(){
     return (
         <footer>
-            <NavBar id="NavBar"/>
+            <NavBar type="nav_footer" id="NavBar"/>
             <p id="content">Lorem ipsum dolor sit amet consectetur. Morbi volut tempus posuere viverra massa fames sed. Dignissim urisus et ac egestas dignissim.</p>
             <ul id="social_media">
                 <li className="icon"><img src={Facebook} alt="facebook logo" /></li>

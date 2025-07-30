@@ -1,0 +1,36 @@
+#wedding {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wedding-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#wedding-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#wedding-content-1 {
+    font-family: 'Ephesis';
+    font-size: 64px;
+    color: #BBA085;
+}
+
+#wedding-content-2 {
+    font-family: 'Cormorant Garamond';
+    font-size: 80px;
+    color: #FFFFFF;
+}
