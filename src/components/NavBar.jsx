@@ -6,7 +6,7 @@ export default function NavBar({type}){
     return (
         <nav id = {type}>
             <ul id = "navList">
-                <li><Link className='navLink' to="/home">HOME</Link></li>
+                <li><Link className='navLink' to="/">HOME</Link></li>
                 <li><Link className='navLink' to="/about">ABOUT</Link></li>
                 <li><Link className='navLink' to="/services">SERVICES</Link></li>
                 <img src={Logo} alt="logo" />

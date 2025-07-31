@@ -1,0 +1,39 @@
+.service{
+    width: 400px;
+    height: 630px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service h2{
+    font-family: 'Ephesis';
+    font-size: 60px;
+}
+
+.service p{
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+}
+
+.service h3{
+    font-family: 'Cormorant Garamond';
+    font-size: 50px;
+}
+
+.service div{
+    align-items: center;
+    text-align: center;
+}
+
+.service button{
+    font-size: 38px;
+    width: 260px;
+    height: 80px;
+    font-family: 'Cormorant Garamond';
+    color: #484848;
+    background-color: #E9E1D9;
+    border: 0px;
+}
