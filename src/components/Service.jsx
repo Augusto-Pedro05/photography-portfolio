@@ -1,5 +1,7 @@
 import './Service.css'
 
+import Button from './Button'
+
 export default function({image, title, price}){
     return(
         <div className='service'>
@@ -9,7 +11,7 @@ export default function({image, title, price}){
                 <p>Per Session</p>
                 <h3>${price}</h3>
             </div>
-            <button>More Details</button>
+            <Button content={"More Details"}/>
         </div>
     );
 }

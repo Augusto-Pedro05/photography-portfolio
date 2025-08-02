@@ -129,28 +129,6 @@
     border: 0px;
 }
 
-#title_services{
-    height: 355px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#title_services h3{
-    padding-top: 175px;
-    font-size: 28px;
-    font-family: 'Raleway';
-    color: #BBA085;
-    padding-bottom: 15px;
-}
-
-#title_services h2{
-    font-size:64px;
-    font-family: 'Cormorant Garamond';
-    color: #5B5B5B;
-}
-
 #services{
     display: flex;
     flex-direction: row;
@@ -213,28 +191,6 @@
     font-size: 33px;
     color: #414141;
     width: 350px;
-}
-
-#title_portfolio{
-    height: 280px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#title_portfolio h3{
-    padding-top: 105px;
-    font-size: 28px;
-    font-family: 'Raleway';
-    color: #BBA085;
-    padding-bottom: 15px;
-}
-
-#title_portfolio h2{
-    font-size:64px;
-    font-family: 'Cormorant Garamond';
-    color: #5B5B5B;
 }
 
 #portfolio{
