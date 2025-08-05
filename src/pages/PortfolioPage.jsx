@@ -3,14 +3,14 @@ import './PortfolioPage.css'
 import Title from '../components/Title'
 import Button from '../components/Button'
 
-import Wedding_Cutted from '../assets/images/Wedding_Cutted.png'
+import WeddingCutted from "../components/WeddingCutted";
 import Wedding_32 from '../assets/images/Wedding_32.png'
 import Wedding_33 from '../assets/images/Wedding_33.png'
 
 export default function PortfolioPage(){
     return(
         <>
-            <img src={Wedding_Cutted} alt="wedding cutted" />
+            <WeddingCutted/>
             <Title subTitle={"PORTFOLIO"} title={"HIGHLIGHTED WORKS"}/>
             <div>
 

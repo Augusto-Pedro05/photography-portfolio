@@ -1,0 +1,59 @@
+.servicos-grid {
+    display: grid;
+    /* Define 2 colunas de largura igual */
+    grid-template-columns: repeat(3, 1fr);
+    /* Deixa a altura da linha ser definida pelo conteúdo */
+    grid-auto-rows: auto;
+    width: 100%;
+    max-width: 1500px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza a grade na página */
+}
+
+.grid-imagem {
+    width: 100%;
+    height: 100%;
+    /* Garante que a imagem cubra toda a célula sem distorcer */
+    object-fit: cover;
+    display: block; /* Remove pequenos espaços que a imagem pode ter */
+}
+
+.texto-servico {
+    padding: 4rem;
+    /* Usa flexbox para centralizar o conteúdo dentro da célula */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto-servico hr{
+    width: 200px;
+    color: #B58B61;
+    border-style: solid;
+    border-top: #FFFFFF;
+    margin-top: 20px;
+}
+
+.numero {
+    font-family: 'Cormorant';
+    font-size: 8rem; /* 64px */
+    color: #B58B61;
+    line-height: 1;
+}
+
+.titulo-servico {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem; /* 24px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.descricao {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem; /* 18px */
+    color: #555;
+    line-height: 1.6;
+    max-width: 400px; /* Limita a largura do texto para melhor leitura */
+}

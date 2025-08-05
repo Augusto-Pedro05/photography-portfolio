@@ -1,0 +1,48 @@
+#service_expanded{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+#service_expanded div{
+    display: flex;
+    flex-direction: column;
+}
+
+#service_expanded div h2{
+    font-family: 'Ephesis';
+    font-size: 80px;
+    color: #555555;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    align-self: center;
+}
+
+#service_expanded div div{
+    border-left: 1px solid;
+    border-color: #BBA085;
+}
+
+#service_expanded div div p{
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    color: #2D2D2D;
+    text-align: start;
+    padding: 10px 40px 10px 40px;
+}
+
+#service_expanded div div h1{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #BBA085;
+    align-self: center;
+    padding-top: 30px;
+}
+
+#service_expanded div div h3{
+    font-family: 'Cormorant Garamond';
+    font-size: 80px;
+    color: #4F4F4F;
+    align-self: center;
+    padding: 10px;
+}

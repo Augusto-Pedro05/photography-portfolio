@@ -1,0 +1,21 @@
+#query{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#query button{
+    border-style: none;
+    color: #B58B61;
+    background-color: #FFFFFF;
+    font-size: 70px;
+    font-family: 'Major Mono Display';
+    padding-bottom: 20px;
+}
+#query h3{
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #D2D2D2;
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    padding-bottom: 20px;
+}

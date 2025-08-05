@@ -1,0 +1,72 @@
+#services_expanded{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#branch_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#branch_title img{
+    width: 80px;
+    padding-bottom: 40px;
+}
+
+#branch_title h1{
+    font-family: 'Cormorant Garamond';
+    font-size: 80px;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+#queries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+#queries div{
+    width: 1400px;
+}
+
+#quality{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+#quality_image{
+    width: 25%;
+    padding-bottom: 150px;
+}
+
+#quality div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 80px;
+    width: 40%;
+}
+
+#quality div h2{
+    padding-top: 10%;
+    font-family: 'Ephesis';
+    font-size: 90px;
+    color: #555555;
+}
+
+#quality div p{
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#quality div Button{
+    width: 400px;
+    height: 125px;
+}
