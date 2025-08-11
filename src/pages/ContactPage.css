@@ -1,0 +1,114 @@
+#contact_info{
+    display: flex;
+    flex-direction: row;
+}
+
+#info{
+    width: 36%;
+    padding: 7%;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#info div p{
+    color: #494949;
+    font-size: 33px;
+    font-family: 'Cormorant Garamond';
+    padding-bottom: 10px;
+}
+
+#info div input{
+    width: 100%;
+    border: 0;
+    height: 50px;
+    font-size: 33px;
+    font-family: 'Cormorant Garamond';
+}
+
+#info div textarea{
+    resize: vertical;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    border: none;
+    font-size: 33px;
+    font-family: 'Cormorant Garamond';
+}
+
+#wedding_47{
+    width: 50%;
+}
+
+#enquire_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+#enquire_title h2{
+    font-family: 'Ephesis';
+    color: #B58B61;
+    font-size: 80px;
+    padding-bottom: 4vh;
+}
+
+#enquire_title h1{
+    font-family: 'Cormorant Garamond';
+    font-size: 55px;
+    color: #2d2d2d;
+    text-align: center;
+    width: 50%;
+}
+
+#contacts{
+    position: relative;
+    display: flex;
+}
+
+#contacts > img{
+    width: 100%;
+}
+
+#contacts > div{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 30%;
+    margin-left: 61%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 90%;
+}
+
+#contacts > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.contact > img{
+    width: 20%;
+}
+
+.contact{
+    font-family: 'Cormorant Garamond';
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact > h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#padding{
+    height: 200px;
+}

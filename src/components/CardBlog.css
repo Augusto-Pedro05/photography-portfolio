@@ -1,0 +1,43 @@
+.cardBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 50rem;
+}
+
+.cardBlog img{
+    width: 100%;
+}
+
+.cardBlog h2{
+    font-family: 'Cormorant Garamond';
+    font-size: 48px;
+    color: #5B5B5B;
+}
+
+.cardBlog div h3, .cardBlog div p{
+    font-family: 'Cormorant Garamond';
+    font-size: 32px;
+    color: #2D2D2D;
+}
+
+.cardBlog div{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardBlog div p{
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    color: #BBA085;
+    padding-left: 15px;
+    align-self: center;
+}
+
+.cardBlog p{
+    font-family: 'Cormorant Garamond';
+    font-size: 24px;
+    color: #2D2D2D;
+    line-height: 30px;
+}

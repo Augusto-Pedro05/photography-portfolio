@@ -52,7 +52,7 @@ export default function ServicesPage(){
             <div>
                 <h2>Quality Service</h2>
                 <p>On your big day, you can count on me to turn fleeting moments into timeless treasures you will cherish for generations.</p>
-                <Button content={"Enquire Now"}/>
+                <Button content={"Enquire Now"} page={"/contact"}/>
                 <img src={Wedding_15} alt="wedding 15 photo" />
             </div>
         </div>

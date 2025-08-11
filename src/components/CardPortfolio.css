@@ -1,0 +1,24 @@
+#card_portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+#card_portfolio h2{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    color: #4B4B4B;
+    padding: 10px 0px 10px 0px;
+}
+
+#card_portfolio h3{
+    font-family: 'Raleway';
+    font-size: 32px;
+    color: #BBA085;
+}
+
+#card_portfolio img{
+    height: 100%;
+    width: 100%;
+}

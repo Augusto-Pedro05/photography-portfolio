@@ -118,15 +118,8 @@
     color: #545454;
 }
 
-#bio_photographer_content button {
-    font-size: 38px;
-    width: 260px;
-    height: 80px;
-    font-family: 'Cormorant Garamond';
-    color: #484848;
+#bio_photographer_content a {
     margin-top: auto;
-    background-color: #E9E1D9;
-    border: 0px;
 }
 
 #services{
@@ -235,14 +228,7 @@
     justify-content: end;
 }
 
-#portfolio_button button{
-    font-size: 38px;
-    width: 260px;
-    height: 80px;
-    font-family: 'Cormorant Garamond';
-    color: #484848;
-    background-color: #E9E1D9;
-    border: 0px;
+#portfolio_button a{
     margin: 100px 165px 100px 0px;
 }
 
@@ -397,14 +383,7 @@
     border-bottom-color: #B58B61; 
 }
 
-#contact div button{
-    font-size: 38px;
-    width: 260px;
-    height: 80px;
-    font-family: 'Cormorant Garamond';
-    color: #484848;
-    background-color: #E9E1D9;
-    border: 0px;
+#contact div a{
     margin-top: auto;
 }
 

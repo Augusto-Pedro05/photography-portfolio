@@ -45,7 +45,7 @@ export default function HomePage(){
                     <p>Lorem ipsum dolor sit amet consectetur. Dignissim consectetur tristique purus vehicula felis velit ac. Tempus velit morbi accumsan id sit interdum lacus turpis ac. Integer malesuada sagittis placerat.</p>
                     <img src={Flowers_Underline} alt="flowers underline" />
                     <h3>Tessa.M</h3>
-                    <Button content={"Learn More"}/>
+                    <Button content={"Learn More"} page={"/about"}/>
                 </div>
             </div>
             <Title subTitle={"SERVICES"} title={"What I Offer"}/>
@@ -75,7 +75,7 @@ export default function HomePage(){
                 <img className='portfolio_image' src={Wedding_3} alt="image wedding 2" />
             </div>
             <div id='portfolio_button'>
-                <Button content={"View Gallery"}/>
+                <Button content={"View Gallery"} page={"/about"}/>
             </div>
             <div id='title_testimonials'>
                 <h1>Client Testimonials</h1>
@@ -106,7 +106,7 @@ export default function HomePage(){
                     <input type="text" placeholder='NAME'/>
                     <input type="text" placeholder='EMAIL'/>
                     <textarea placeholder='MESSAGE'></textarea>
-                    <Button content={"Send"}/>
+                    <Button content={"Send"} page={"/error"}/>
                 </div>
                 <img src={Wedding_5} alt="image wedding 4" />
             </div>

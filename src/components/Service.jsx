@@ -11,7 +11,7 @@ export default function({image, title, price}){
                 <p>Per Session</p>
                 <h3>${price}</h3>
             </div>
-            <Button content={"More Details"}/>
+            <Button content={"More Details"} page={"/services"}/>
         </div>
     );
 }

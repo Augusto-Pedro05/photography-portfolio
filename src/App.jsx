@@ -10,6 +10,7 @@ import ServicesPage from './pages/ServicesPage'
 import PortfolioPage from './pages/PortfolioPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/contact" element={<ContactPage />} /> 
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/error" element={<ErrorPage/>}/> 
         </Routes>
       </main>
       <Footer/>  

@@ -1,0 +1,96 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+
+.cardslast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#my_promise{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#my_promise img{
+    width: 100%;
+}
+
+#my_promise div{
+    position: absolute;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid;
+    border-color: #BBA085;
+    box-shadow: 0 0 0 18px white;
+    opacity: 90%;
+}
+
+#my_promise div h3{
+    font-family: 'Ephesis';
+    font-size: 80px;
+    color: #BBA085;
+}
+
+#my_promise div p{
+    font-family: 'Cormorant Garamond';
+    width: 70%;
+    font-size: 35px;
+    color: #000000;
+}
+
+#stay_beatifiul{
+    padding: 200px 100px 200px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#stay_beatifiul div{
+    width: 40%;
+    padding: 120px 100px 120px 0;
+}
+
+#stay_beatifiul div h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    color: #BBA085;
+    letter-spacing: 8px;
+    padding-bottom: 10px;
+}
+
+#stay_beatifiul div h3{
+    font-family: 'Corinthia';
+    font-size: 64px;
+    color: #6C6C6C;
+    padding-bottom: 10px;
+}
+
+#stay_beatifiul div p{
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    color: #4F4F4F;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+
+#stay_beatifiul img{
+    width: 60%;
+}
+
+#stay_beatifiul button{
+    width: 50%;
+    height: 13%;
+}

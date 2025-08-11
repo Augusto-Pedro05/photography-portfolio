@@ -1,0 +1,25 @@
+#cards div{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+#cards{
+    padding-bottom: 300px;
+}
+
+.card{
+    padding-top: 100px;
+}
+
+#pos_title{
+    width: 100%;
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pos_title p{
+    width: 40%;
+    text-align: center;
+}

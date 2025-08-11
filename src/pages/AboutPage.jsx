@@ -26,7 +26,7 @@ export default function ServicesPage(){
                     <p>Lorem ipsum dolor sit amet consectetur. Rutrum tincidunt consequat nec potenti. Justo molestie amet vulputate aliquam viverra ut viverra lorem. Velit tellus</p>
                     <p>Lorem ipsum dolor sit amet consectetur. Rutrum tincidunt consequat nec potenti. Justo molestie amet vulputate aliquam viverra ut viverra lorem. Velit tellus vitae massa sed egestas ornare pretium</p>
                     <img src={Branch_3} alt="branch 3" />
-                    <Button content={"View Portfolio"}/>
+                    <Button content={"View Portfolio"} page={"/portfolio"}/>
                 </div>
             </div>
             <div id='wedding_images'>
@@ -42,7 +42,7 @@ export default function ServicesPage(){
                     <h3>CRAFTING MEMORIES</h3>
                     <h2>Your Story, My Lens</h2>
                     <p>Your wedding day is a once-in-a-lifetime event, and choosing the right photographer is essential to preserving its magic for years to come. I would be honored to be a part of your special day.</p>
-                    <Button content={"Book Now"}/>
+                    <Button content={"Book Now"} page={"/contact"}/>
                 </div>
                 <div id='crafting_memories_img'>
                     <img id='crafting_memories_img_1' src={Wedding_21} alt="photo wedding 21" />
