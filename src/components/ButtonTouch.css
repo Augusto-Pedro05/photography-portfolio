@@ -7,6 +7,10 @@
 }
 
 #button_touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     font-size: 40px;
     width: 340px;
     height: 100px;
@@ -15,4 +19,10 @@
     background-color: #FFFFFF;
     border: 1px solid;
     border-color: #BBA085;
+    transition: 1s;
+}
+
+#button_touch:hover{
+    background-color: #dcbd9e;
+    cursor: pointer;
 }

@@ -1,0 +1,100 @@
+:root{
+  --panel-w: 550px;
+  --panel-h: 550px;
+  --gap: 40px;
+}
+
+.carousel{
+  position: relative;
+  background-color: #F8F8F8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 100px 0;
+}
+
+.viewport{
+  width: calc(var(--panel-w) * 2 + var(--gap));
+  overflow: hidden;
+}
+
+.track{
+  display:flex;
+  transition: transform 500ms ease;
+}
+
+.slide{
+  min-width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* painel de informação */
+.slide-info{
+  background-color: #FFFFFF;
+  width: var(--panel-w);
+  height: var(--panel-h);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-right: 10%;
+}
+
+/* tipografia (copie as fonts se necessário) */
+.slide-info h2{
+  font-family: 'Forum', serif;
+  font-size: 200px;
+  line-height: 1;
+  margin: 0;
+  color: #E9E1D9;
+  height: 60px;
+}
+.slide-info p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  text-align: center;
+  color: #4F4F4F;
+  margin: 0 10px;
+}
+.slide-info h3{
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  font-size: 38px;
+  text-align: center;
+  color: #414141;
+  margin: 0;
+}
+
+/* imagem do slide */
+.slide-img{
+  width: var(--panel-w);
+  height: var(--panel-h);
+  object-fit: cover;
+  display:block;
+}
+
+/* botões laterais */
+.nav{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #E9E1D9;
+  border: 0;
+  width: 55px;
+  height: 80px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor: pointer;
+}
+.nav img{ width:25px; display:block; }
+
+.nav.left{ left: 10%; }
+.nav.right{ right: 10%; }
+

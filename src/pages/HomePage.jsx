@@ -4,6 +4,7 @@ import Service from '../components/Service'
 import Experience from '../components/Experience'
 import Title from '../components/Title' 
 import Button from '../components/Button'
+import Carousel from '../components/Carousel'
 
 import Wedding from "../assets/images/Wedding.png"
 import Branch_1 from "../assets/vectors/Branch_1.png"
@@ -18,8 +19,12 @@ import Wedding_2 from "../assets/images/Wedding_2.png"
 import Wedding_3 from "../assets/images/Wedding_3.png"
 import Wedding_4 from "../assets/images/Wedding_4.png"
 import Wedding_5 from "../assets/images/Wedding_5.png"
-import LessThan from "../assets/vectors/LessThan.png"
-import GreaterThan from "../assets/vectors/GreaterThan.png"
+
+const items = [
+    { text: "Showcasing your Big Day in a Memorable & Unforgettable way.", author: "Sarah & Luke", img: Wedding_4 },
+    { text: "Another nice quote here", author: "Mia & John", img: Wedding_5 },
+    { text: "Having a nice day in wedding" , author: "Jane & Cristopher", img: Wedding_2}
+];
 
 export default function HomePage(){
     return(
@@ -80,16 +85,7 @@ export default function HomePage(){
             <div id='title_testimonials'>
                 <h1>Client Testimonials</h1>
             </div>
-            <div id='carousel'>
-                <button><img src={LessThan} alt="less than" /></button>
-                    <div id='carousel_info'>
-                        <h2>“</h2>
-                        <p>Showcasing your Big Day in a Memorable & Unforgettable way.</p>
-                        <h3>Sarah & Luke</h3>
-                    </div>
-                <img src={Wedding_4} alt="image Wedding 3"/>
-                <button><img src={GreaterThan} alt="greater than" /></button>
-            </div>
+            <Carousel items={items}/>
             <div id='experience'>
                 <h1>HELPING COUPLES BRING TO LIFE THEIR WEDDING DREAMS</h1>
                 <div id='experiences'>
