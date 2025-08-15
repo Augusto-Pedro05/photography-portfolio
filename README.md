@@ -44,7 +44,7 @@ Instalação
 ```git clone https://github.com/Augusto-Pedro05/photography-portfolio```
 
 2. Navegue até o diretório do projeto:
-```cd [nome-da-pasta-do-projeto]```
+```cd photography-portfolio```
 
 3. Instale as dependências:
 
