@@ -80,7 +80,7 @@ export default function HomePage(){
                 <img className='portfolio_image' src={Wedding_3} alt="image wedding 2" />
             </div>
             <div id='portfolio_button'>
-                <Button content={"View Gallery"} page={"/about"}/>
+                <Button content={"View Gallery"} page={"/gallery"}/>
             </div>
             <div id='title_testimonials'>
                 <h1>Client Testimonials</h1>

@@ -11,6 +11,8 @@ import PortfolioPage from './pages/PortfolioPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
 import ErrorPage from './pages/ErrorPage'
+import GalleryPage from './pages/GalleryPage'
+import BlogDetailPage from './pages/BlogDetailPage'
 
 function App() {
 
@@ -25,7 +27,9 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/error" element={<ErrorPage/>}/> 
+          <Route path="/error" element={<ErrorPage/>}/>
+          <Route path="/gallery" element={<GalleryPage/>}/>
+          <Route path="/blogDetail" element={<BlogDetailPage/>}/> 
         </Routes>
       </main>
       <Footer/>  

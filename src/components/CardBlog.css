@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: start;
     width: 30%;
     height: 50rem;
+    text-decoration: none;
 }
 
 .cardBlog img{

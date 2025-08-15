@@ -40,11 +40,11 @@ export default function ServicesPage(){
         <Title subTitle={"FAQ"} title={"Any Queries?"}/>
         <div id="queries">
             <div>
-                <Query content="WHAT IS YOUR PHOTOGRAPHY STYLE?"/>
-                <Query content="HOW FAR IN ADVANCE CAN SHOULD WE BOOK YOUR SERVICES?"/>
-                <Query content="DO YOU REQUIRE A DEPOSIT, AND WHAT ARE YOUR PAYMENT TERMS?"/>
-                <Query content="CAN WE CUSTOMIZE A PHOTOGRAPHY PACKAGE TO FIT YOUR NEEDS?"/>
-                <Query content="HOW SOON AFTER THE EVENT WILL I RECEIVE YOUR PHOTOS?"/>
+                <Query content="WHAT IS YOUR PHOTOGRAPHY STYLE?" details={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex vero earum asperiores harum saepe odit, voluptas aliquam veniam aliquid nisi officiis quaerat, aspernatur deserunt eligendi inventore! Consectetur, eum laborum!Lorem'}/>
+                <Query content="HOW FAR IN ADVANCE CAN SHOULD WE BOOK YOUR SERVICES?" details={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex vero earum asperiores harum saepe odit, voluptas aliquam veniam aliquid nisi officiis quaerat, aspernatur deserunt eligendi inventore! Consectetur, eum laborum!Lorem'}/>
+                <Query content="DO YOU REQUIRE A DEPOSIT, AND WHAT ARE YOUR PAYMENT TERMS?" details={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex vero earum asperiores harum saepe odit, voluptas aliquam veniam aliquid nisi officiis quaerat, aspernatur deserunt eligendi inventore! Consectetur, eum laborum!Lorem'}/>
+                <Query content="CAN WE CUSTOMIZE A PHOTOGRAPHY PACKAGE TO FIT YOUR NEEDS?" details={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex vero earum asperiores harum saepe odit, voluptas aliquam veniam aliquid nisi officiis quaerat, aspernatur deserunt eligendi inventore! Consectetur, eum laborum!Lorem'}/>
+                <Query content="HOW SOON AFTER THE EVENT WILL I RECEIVE YOUR PHOTOS?" details={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex vero earum asperiores harum saepe odit, voluptas aliquam veniam aliquid nisi officiis quaerat, aspernatur deserunt eligendi inventore! Consectetur, eum laborum!Lorem'}/>
             </div>
         </div>
         <div id="quality">

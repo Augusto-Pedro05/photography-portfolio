@@ -10,6 +10,7 @@ export default function ButtonTouch(){
     return(
         <div id='container_button_touch'>
             <Link id='button_touch' to={'/contact'} onClick={handleClick}>GET IN TOUCH</Link>
-        </div>  
+        </div> 
+         
     );
 }

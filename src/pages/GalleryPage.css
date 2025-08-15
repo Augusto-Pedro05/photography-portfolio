@@ -1,0 +1,100 @@
+#gallery{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#gallery_initial_content, #gallery_initial_content > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+}
+
+#gallery_initial_content > div > h3{
+    padding-right: 5px;
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    color: #2D2D2D;
+}
+
+#gallery_initial_content > div > p{
+    padding-left: 5px;
+    font-family: 'Dancing Script';
+    font-size: 28px;
+    color: #BBA085;
+}
+
+#gallery > img{
+    width: 100%;
+}
+
+#gallery > h3{
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-self: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#gallery_images{
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#gallery_images_1{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#gallery_images_1 img{
+    height: 100%;
+}
+
+#gallery_images_2{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#gallery_images_2 img{
+    height: 100%;
+}
+
+#branch_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#branch_title img{
+    height: 200%;
+}
+
+#branch_title h2{
+    font-family: 'Cormorant Garamond';
+    font-size: 64px;
+    color: #5B5B5B;
+}
+
+#more_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+#more_images img{
+    width: 23%;
+}
