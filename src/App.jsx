@@ -1,24 +1,22 @@
-import { Routes, Route } from 'react-router-dom'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
 
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import ServicesPage from './pages/ServicesPage'
-import PortfolioPage from './pages/PortfolioPage'
-import BlogPage from './pages/BlogPage'
-import ContactPage from './pages/ContactPage'
-import ErrorPage from './pages/ErrorPage'
-import GalleryPage from './pages/GalleryPage'
-import BlogDetailPage from './pages/BlogDetailPage'
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ServicesPage from "./pages/ServicesPage";
+import PortfolioPage from "./pages/PortfolioPage";
+import BlogPage from "./pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
+import ErrorPage from "./pages/ErrorPage";
+import GalleryPage from "./pages/GalleryPage";
 
 function App() {
-
   return (
-    <div id='app-container'>
-      <NavBar type="nav"/>
+    <div id="app-container">
+      <NavBar type="nav" />
       <main id="main-content">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -27,14 +25,13 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/error" element={<ErrorPage/>}/>
-          <Route path="/gallery" element={<GalleryPage/>}/>
-          <Route path="/blogDetail" element={<BlogDetailPage/>}/> 
+          <Route path="/error" element={<ErrorPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
         </Routes>
       </main>
-      <Footer/>  
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
